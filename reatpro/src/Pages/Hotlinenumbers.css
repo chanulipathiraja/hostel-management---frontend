@@ -1,0 +1,64 @@
+/* Container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#888, #222);
+  height: 100vh;
+}
+
+/* Title */
+.dashboard-container h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* Grid layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-items: center;
+}
+
+/* Card style */
+.carde {
+  background: #14d4f0;
+  border: none;
+  padding: 25px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 130px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #11bcd6;
+}
+
+/* Help button */
+.help-btn {
+  
+  border:none;
+  bottom: 20px;
+  right: 20px;
+  background: #e86c6c;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+.help-btn:hover {
+  background: #d65959;
+}

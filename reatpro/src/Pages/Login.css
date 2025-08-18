@@ -1,0 +1,87 @@
+/* General container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+ 
+}
+
+/* Logo */
+.logo {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background: #b3b3b3;
+  padding: 5px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* User Icon */
+.user-icon {
+  margin: 10px 0 20px 0;
+  color: black;
+}
+
+/* Input Box */
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
+  border-radius: 20px;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+.input-field input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 1rem;
+}
+
+/* Eye icon */
+.eye-icon {
+  cursor: pointer;
+}
+
+/* Buttons */
+.button-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.signin {
+  background: #c94f4f;
+}
+
+.signup {
+  background: #c94f4f;
+}

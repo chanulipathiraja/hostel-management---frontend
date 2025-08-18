@@ -1,0 +1,72 @@
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+
+.user-container h2 {
+  background: #f8caca;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+.form-row label {
+  flex: 1;
+  font-weight: 600;
+  color: #333;
+  
+}
+
+/* Inputs */
+.form-row input,
+.form-row textarea {
+  flex: 2;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #eee;
+  font-size: 14px;
+  outline: none;
+  
+}
+
+.form-row textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+
+.upload-box {
+  width: 120px;
+  height: 120px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
