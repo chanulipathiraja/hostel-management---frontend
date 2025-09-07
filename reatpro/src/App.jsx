@@ -12,7 +12,6 @@ import Aboutme from './Pages/Aboutme.jsx';
 import Studentdetails from './Pages/Studentdetails.jsx';
 import Complain from './Pages/Complain.jsx';
 import Feepayment from './Pages/Feepayment.jsx';
-import Hotlinenumbers from './Pages/Hotlinenumbers.jsx';
 import Subwarden from './Pages/Subwarden.jsx';
 import MedicalCenter from './Pages/MedicalCenter.jsx';
 import Ambulance from './Pages/Ambulance.jsx';
@@ -21,6 +20,9 @@ import Hostelbeds from './Pages/Hostelbeds.jsx';
 import Hostelwifi from './Pages/Hostelwifi.jsx';
 import Hostelbathrooms from './Pages/Hostelbathrooms.jsx';
 import Hostelstudyarea from './Pages/Hostelstudyarea.jsx';
+import Facilities from './Pages/Facilities.jsx';
+import HotlineNumbers from './Pages/Hotlinenumbers.jsx';
+import Dailycount from './Pages/Dailycount.jsx';
 
 
 
@@ -36,7 +38,7 @@ function App() {
       <Route path="/studentdetails" element={<Studentdetails />} />
       <Route path="/complain" element={<Complain />} />
       <Route path="/feepayment" element={<Feepayment />} />
-      <Route path="/hotlinenumbers" element={<Hotlinenumbers />} />
+      
       <Route path="/subwarden" element={<Subwarden />} />
       <Route path="/medicalcenter" element={<MedicalCenter />} />
       <Route path="/ambulance" element={<Ambulance />} />
@@ -45,6 +47,10 @@ function App() {
       <Route path="/hostelwifi" element={<Hostelwifi />} />
       <Route path="/hostelbathrooms" element={<Hostelbathrooms />} />
       <Route path="/hostelstudyarea" element={<Hostelstudyarea />} />
+      <Route path="/facilities" element={<Facilities />} />
+      <Route path="/HotlineNumbers" element={<HotlineNumbers />} />
+      <Route path="/Dailycount" element={<Dailycount />} />
+      
       
     </Routes>
   );

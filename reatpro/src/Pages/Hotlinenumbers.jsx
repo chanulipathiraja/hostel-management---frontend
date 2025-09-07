@@ -1,23 +1,33 @@
 import React from "react";
-import "./Hotlinenumbers.css";
+import "./HotlineNumbers.css";
 
-function Hotlinenumbers ()  {
+
+
+function HotlineNumbers() {
+
+  
+  
+
   return (
-    <div className="dashboard-container">
-      <h1>Hotline Numbers</h1>
+    <div className="HotlineNumbers"> 
 
-      <div className="card-grid">
-        <button className="carde">Subwarden</button>
-        <button className="carde">Medical Center</button>
-        <button className="carde">Ambulance</button>
-        
+    <div class="back_2">
+        <section class="links">
+        <div class="box_1">
+            <a href="#" class="num"><br></br>Subwarden</a>
+        </div>
+        <div class="box_2">
+            <a href="#" class="num"><br></br>Medical Center</a>
+        </div>
+        <div class="box_1">
+            <a href="#" class="num"><br></br>Ambulance</a>
+        </div>
 
-        
-      </div>
-      
-      </div>
-
+       </section>
+        </div>
+    </div>   
+    
   );
-};
+} ;   
 
-export default Hotlinenumbers;
+export default HotlineNumbers;
